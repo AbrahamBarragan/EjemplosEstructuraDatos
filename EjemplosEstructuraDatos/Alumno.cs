@@ -12,7 +12,7 @@ namespace EjemplosEstructuraDatos
         private string apellidoPaterno;
         private string apellidoMaterno;
         private string nombres;
-        private DateTime fechadenacimiento;
+        private DateTime fechanacimiento;
 
         public string Matricula
         {
@@ -59,15 +59,15 @@ namespace EjemplosEstructuraDatos
                 nombres = value;
             }
         }
-        public DateTime Fechadenacimiento
+        public DateTime FechaNacimiento
         {
             get
             {
-                return fechadenacimiento; 
+                return fechanacimiento; 
             }
             set
             {
-                fechadenacimiento = value;
+                fechanacimiento = value;
             }
         }
         public string NombreCompleto
